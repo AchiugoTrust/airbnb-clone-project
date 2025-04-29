@@ -1,7 +1,5 @@
 # Airbnb Clone
 
- ## Description:
-
  Airbnb Clone project is designed to provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments. It'll support various functionalities required to mimic the core features of Airbnb. 
 
  ## Project goals:
