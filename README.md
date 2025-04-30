@@ -26,3 +26,14 @@
 * Database Administrator: Manages database design, indexing, and optimizations.
 * DevOps Engineer: Builds Continuous Integration and Continuous Delivery (CI/CD) pipelines for faster delivery. Also handles deployment, monitoring, and scaling of the backend services.
 * QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards, and application performs according to requirements.
+
+## Database Design:
+Outline of the entities of the system and how they relate to one another.
+
+### Users: Individuals using the platform, including guests and hosts.
+
+**'Users' Fields:**
+* 'id' - Primary Key
+* 'name'
+* 'email
+* 'role' (e.g host, guest, admin)
