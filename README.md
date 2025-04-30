@@ -104,3 +104,12 @@ Tracks payment transactions for bookings.
 
 **Relationships:**
 - A **payment** belongs to one **booking**.
+
+
+## Feature Breakdown:
+* User Management: Implement a secure system for user registration, authentication, and profile management. This enables users to create and manage their accounts on the app.
+* Property Management: Develop features for property listing creation, updates, and retrieval. With this feature, potential guests can view properties listed on the sites by hosts.
+* Booking System: Create a booking mechanism for users to reserve properties and manage booking details. Users, therefore, can rest assured that booked properties stay reserved for them.
+* Payment Processing: Integrate a payment system to handle transactions and record payment details. This helps users to book properties conveniently.
+* Review System: Allow users to leave reviews and ratings for properties. This enables potential users to make better informed decisions.
+* Data Optimization: Ensure efficient data retrieval and storage through database optimizations. This improves user experience, reducing load times.
