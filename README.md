@@ -1,5 +1,7 @@
 # Airbnb Clone
 
+# Project Overview
+
  Airbnb Clone project is designed to provide a robust and scalable foundation for managing user interactions, property listings, bookings, and payments. It'll support various functionalities required to **mimic the core features** of Airbnb. 
 
  ## Project Goals:
@@ -38,6 +40,7 @@ Individuals using the platform, including guests and hosts.
 * `name`
 * `email`
 * `role` (e.g host, guest, admin)
+* `password_hash`
 
 **Relationships:**
 * A **user** can list **multiple properties** (if host).
