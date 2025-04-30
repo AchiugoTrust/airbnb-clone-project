@@ -77,3 +77,18 @@ Captures reservation details for properties.
 - A **booking** is made by a **user**.
 - A **booking** is for one **property**.
 - A **booking** can have one **payment**.
+
+
+### **Reviews**:
+User feedback on experience and properties.
+
+**"Reviews'" Fields:**
+- `id` (Primary Key)
+- `propertyId` (Foreign Key → Properties.id)
+- `userId` (Foreign Key → Users.id)
+- `rating` (1–5)
+- `comment`
+
+**Relationships:**
+- A **review** is written by a **user**.
+- A **review** belongs to one **property**.
