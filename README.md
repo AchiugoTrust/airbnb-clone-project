@@ -117,6 +117,48 @@ Tracks payment transactions for bookings.
 
 ## API Security:
 
+This project follows best practices for securing backend APIs, aligning with OpenAPI-supported structures (like security schemes) and industry-standard implementation techniques.
+
+### Authentication
+Secure token-based authentication (e.g., JWT) is used to verify users before they can interact with the API.
+
+- **Importance:** Prevents unauthorized access and protects user credentials.
+
+###  Authorization
+Role-Based Access Control (RBAC) ensures users can only access resources or perform actions appropriate to their role (e.g., host vs. guest).
+
+- **Importance:** Prevents privilege escalation and ensures data integrity.
+
+### Data Encryption
+Sensitive data such as passwords are hashed (e.g., using `bcrypt`), and HTTPS is enforced for all API communication.
+
+- **Importance:** Protects user data during transmission and storage.
+
+### Rate Limiting
+Rate limiting is applied to prevent abuse, brute-force login attempts, and denial-of-service attacks.
+
+- **Importance:** Helps maintain service availability and protect accounts.
+
+### Input Validation & Sanitization
+All inputs are validated and sanitized using schema definitions to prevent injection attacks (e.g., SQLi, XSS).
+
+- **Importance:** Ensures backend safety from malicious or malformed data.
+
+### Secure Payment Processing
+Payments are handled through secure third-party processors like Stripe or PayPal, following PCI-DSS compliance.
+
+- **Importance:** Protects financial data and ensures transaction integrity.
+
+### Audit Logs
+Critical system events and user actions are logged for auditing and anomaly detection.
+
+- **Importance:** Aids in monitoring suspicious behavior and maintaining accountability.
+
+### Error Handling & Logging
+Internal errors are logged in detail (server-side), but error messages returned to clients are sanitized.
+
+- **Importance:** Prevents attackers from learning about internal system logic while aiding debugging.
+
 
 
 ## CI/CD Pipelines:
@@ -125,6 +167,7 @@ These are automated series of steps that streamline the software development lif
 Some tools that could be used to build CI/CD pipelines include;
 * Jenkins
 * GitHub Actions
+* Docker
 * CircleCI
 * Azure DevOps
 * GitLab CI
