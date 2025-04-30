@@ -92,3 +92,17 @@ User feedback on experience and properties.
 **Relationships:**
 - A **review** is written by a **user**.
 - A **review** belongs to one **property**.
+
+
+### **Payments**:
+Tracks payment transactions for bookings.
+
+**"Payments'" Fields:**
+- `id` (Primary Key)
+- `bookingId` (Foreign Key → Bookings.id)
+- `amount`
+- `paymentMethod`
+- `paymentDate`
+
+**Relationships:**
+- A **payment** belongs to one **booking**.
