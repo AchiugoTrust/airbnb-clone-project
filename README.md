@@ -113,3 +113,17 @@ Tracks payment transactions for bookings.
 * Payment Processing: Integrate a payment system to handle transactions and record payment details. This helps users to book properties conveniently.
 * Review System: Allow users to leave reviews and ratings for properties. This enables potential users to make better informed decisions.
 * Data Optimization: Ensure efficient data retrieval and storage through database optimizations. This improves user experience, reducing load times.
+
+## API Security:
+
+
+
+## CI/CD Pipelines:
+These are automated series of steps that streamline the software development life cycle through automation of processes/stages such as code testing, building, packaging, and deployment. For this project, automated testing helps in identifying and fixing bugs early, improving software quality and stablity. Pipelines also foster better collaboration between development,testing, and operations teams. 
+
+Some tools that could be used to build CI?CD pipelines include;
+* Jenkins
+* GitHub Actions
+* CircleCI
+* Azure DevOps
+* GitLab CI
