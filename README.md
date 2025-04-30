@@ -65,7 +65,7 @@ Represents the accommodations listed by hosts.
 Captures reservation details for properties.
 
 **"Bookings'" Fields:**
-- `id`- (Primary Key)
+- `id`- Primary Key
 - `propertyId` (Foreign Key → Properties.id)
 - `userId` (Foreign Key → Users.id)
 - `date`
@@ -81,7 +81,7 @@ Captures reservation details for properties.
 User feedback on experience and properties.
 
 **"Reviews'" Fields:**
-- `id` (Primary Key)
+- `id`- Primary Key
 - `propertyId` (Foreign Key → Properties.id)
 - `userId` (Foreign Key → Users.id)
 - `rating` (1–5)
@@ -96,7 +96,7 @@ User feedback on experience and properties.
 Tracks payment transactions for bookings.
 
 **"Payments'" Fields:**
-- `id` (Primary Key)
+- `id`- Primary Key
 - `bookingId` (Foreign Key → Bookings.id)
 - `amount`
 - `paymentMethod`
