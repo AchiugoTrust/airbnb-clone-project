@@ -50,7 +50,6 @@ Represents the accommodations listed by hosts.
 
 **"Properties'" Fields:**
 - `id`- Primary Key
-- `title`
 - `description`
 - `location`
 - `pricePerNight`
@@ -69,8 +68,7 @@ Captures reservation details for properties.
 - `id`- (Primary Key)
 - `propertyId` (Foreign Key → Properties.id)
 - `userId` (Foreign Key → Users.id)
-- `startDate`
-- `endDate`
+- `date`
 - `totalPrice`
 
 **Relationships:**
