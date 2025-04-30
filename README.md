@@ -37,3 +37,8 @@ Outline of the entities of the system and how they relate to one another.
 * 'name'
 * 'email
 * 'role' (e.g host, guest, admin)
+
+**Relationships:**
+* A **user** can list multiple properties (if host).
+* A **user** can make multiple bookings (if guest).
+* A **user** can leave multiple reviews.
