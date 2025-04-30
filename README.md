@@ -30,9 +30,10 @@
 ## Database Design:
 Outline of the entities of the system and how they relate to one another.
 
-**Users**: Individuals using the platform, including guests and hosts.
+**Users**:
+Individuals using the platform, including guests and hosts.
 
-**'Users' Fields:**
+**"Users'" Fields:**
 * 'id' - Primary Key
 * 'name'
 * 'email
@@ -42,3 +43,19 @@ Outline of the entities of the system and how they relate to one another.
 * A **user** can list multiple properties (if host).
 * A **user** can make multiple bookings (if guest).
 * A **user** can leave multiple reviews.
+
+**Properties**
+Represents the accommodations listed by hosts.
+
+**"Properties'" Fields:**
+- `id`- Primary Key
+- `title`
+- `description`
+- `location`
+- `pricePerNight`
+- `hostId` (Foreign Key → Users.id)
+
+**Relationships:**
+- A **property** is owned by one **user** (host).
+- A **property** can have many **bookings**.
+- A **property** can have many **reviews**.
