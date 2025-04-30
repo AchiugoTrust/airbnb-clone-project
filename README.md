@@ -44,7 +44,8 @@ Individuals using the platform, including guests and hosts.
 * A **user** can make multiple bookings (if guest).
 * A **user** can leave multiple reviews.
 
-**Properties**
+
+### **Properties**:
 Represents the accommodations listed by hosts.
 
 **"Properties'" Fields:**
