@@ -30,7 +30,7 @@
 ## Database Design:
 Outline of the entities of the system and how they relate to one another.
 
-**Users**:
+### **Users**:
 Individuals using the platform, including guests and hosts.
 
 **"Users'" Fields:**
