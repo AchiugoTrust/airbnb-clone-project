@@ -40,9 +40,9 @@ Individuals using the platform, including guests and hosts.
 * `role` (e.g host, guest, admin)
 
 **Relationships:**
-* A **user** can list multiple properties (if host).
-* A **user** can make multiple bookings (if guest).
-* A **user** can leave multiple reviews.
+* A **user** can list **multiple properties** (if host).
+* A **user** can make **multiple bookings** (if guest).
+* A **user** can leave **multiple reviews**.
 
 
 ### **Properties**:
@@ -60,3 +60,20 @@ Represents the accommodations listed by hosts.
 - A **property** is owned by one **user** (host).
 - A **property** can have many **bookings**.
 - A **property** can have many **reviews**.
+
+
+### **Bookings**:
+Captures reservation details for properties.
+
+**"Bookings'" Fields:**
+- `id`- (Primary Key)
+- `propertyId` (Foreign Key → Properties.id)
+- `userId` (Foreign Key → Users.id)
+- `startDate`
+- `endDate`
+- `totalPrice`
+
+**Relationships:**
+- A **booking** is made by a **user**.
+- A **booking** is for one **property**.
+- A **booking** can have one **payment**.
