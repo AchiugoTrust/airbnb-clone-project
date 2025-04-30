@@ -34,10 +34,10 @@ Outline of the entities of the system and how they relate to one another.
 Individuals using the platform, including guests and hosts.
 
 **"Users'" Fields:**
-* 'id' - Primary Key
-* 'name'
-* 'email
-* 'role' (e.g host, guest, admin)
+* `id` - Primary Key
+* `name`
+* `email`
+* `role` (e.g host, guest, admin)
 
 **Relationships:**
 * A **user** can list multiple properties (if host).
