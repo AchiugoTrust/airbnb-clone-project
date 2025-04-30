@@ -121,7 +121,7 @@ Tracks payment transactions for bookings.
 ## CI/CD Pipelines:
 These are automated series of steps that streamline the software development life cycle through automation of processes/stages such as code testing, building, packaging, and deployment. For this project, automated testing helps in identifying and fixing bugs early, improving software quality and stablity. Pipelines also foster better collaboration between development,testing, and operations teams. 
 
-Some tools that could be used to build CI?CD pipelines include;
+Some tools that could be used to build CI/CD pipelines include;
 * Jenkins
 * GitHub Actions
 * CircleCI
